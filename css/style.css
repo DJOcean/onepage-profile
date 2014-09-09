@@ -1,0 +1,154 @@
+/* colors 
+#004C4C = accent
+#00FFFF = primary
+*/
+
+html {
+  height: 100%;
+}
+
+html, body  {
+    padding: 0;
+    margin: 0;
+
+}
+
+* {
+  font-family: 'Raleway', Impact;
+}
+
+body {
+  background-color: #338195;
+  background-size: 100%;
+  height: 100%;
+}
+
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.main-content {
+  padding-left: 20%;
+  padding-right: 20%;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto -100px;
+}
+
+.pic-wrapper {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #338195;
+  color: #004C4C;
+  float:left;
+
+}
+
+.pic-wrapper img {
+  width: 350px;
+  height: 350px;
+  border: 10px double #0B173B;
+  background: #A4A4A4;
+  border-radius: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+header {
+  
+  z-index: 1;
+  background-color: #001F33;
+  color: #338195;
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  padding-right: 20%;
+  
+}
+
+footer {
+  background-color: #666;
+  height: 100px;
+  clear: both;
+
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #338195;
+  display: inline-block;
+  float: left;
+
+}
+
+header ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  float: right;
+}
+
+ header li {
+  display: inline-block;
+  margin-left: 1px;
+  margin-right: 20px;
+  padding: 5px;  
+}
+
+ header ul li a {
+  text-decoration: none;
+  color: #338195;
+
+}
+
+.list-wrapper {
+  float: right;
+  margin-top: 40px;
+  width: 50%;
+
+}
+
+.list-wrapper p {
+  border-bottom: 2px dotted #D1F0FF;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #D1F0FF;
+  font-weight: bold;
+}
+
+.list-wrapper li {
+  list-style: none;
+  color: #D1F0FF;
+  font-size: 18px;
+}
+
+.list-wrapper td {
+  border-bottom: 2px dotted #D1F0FF;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  color: #D1F0FF;
+  font-weight: bold;
+}
+
+.list-wrapper a {
+  text-transform: none;
+}
+
+.list-wrapper table {
+  width: 100%;
+}
+
+.top p, .top h2 {
+  color: #D1F0FF;
+  font-weight: bold;
+}
+
+.top p {  
+  font-size: 18px;
+}
