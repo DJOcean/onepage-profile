@@ -3,6 +3,9 @@
 #00FFFF = primary
 */
 
+* {
+  font-family: 'Raleway', Impact;
+}
 html {
   height: 100%;
 }
@@ -10,11 +13,6 @@ html {
 html, body  {
     padding: 0;
     margin: 0;
-
-}
-
-* {
-  font-family: 'Raleway', Impact;
 }
 
 body {
@@ -27,7 +25,6 @@ div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-
 }
 
 .main-content {
@@ -42,16 +39,15 @@ div {
   padding-top: 1%;
   padding-bottom: 1%;
   background-color: #338195;
-  color: #004C4C;
+  color: #004c4c;
   float:left;
-
 }
 
 .pic-wrapper img {
   width: 350px;
   height: 350px;
-  border: 10px double #0B173B;
-  background: #A4A4A4;
+  border: 10px double #0b173b;
+  background: #a4a4a4;
   border-radius: 100%;
   display: inline-block;
   margin-bottom: 20px;
@@ -60,28 +56,21 @@ div {
 header {
   
   z-index: 1;
-  background-color: #001F33;
+  background-color: #001f33;
   color: #338195;
-  padding-left: 20%;
-  padding-top: 20px;
-  padding-bottom: 75px;
-  padding-right: 20%;
-  
+  padding: 20px 20% 75px 20%;  
 }
 
 footer {
   background-color: #666;
   height: 100px;
   clear: both;
-
 }
 
 header h1 a {
   text-decoration: none;
   color: #338195;
-  display: inline-block;
   float: left;
-
 }
 
 header ul {
@@ -93,15 +82,13 @@ header ul {
 
  header li {
   display: inline-block;
-  margin-left: 1px;
-  margin-right: 20px;
+  margin: 0px 20px 0px 1px;
   padding: 5px;  
 }
 
  header ul li a {
   text-decoration: none;
   color: #338195;
-
 }
 
 .list-wrapper {
@@ -111,29 +98,18 @@ header ul {
 
 }
 
-.list-wrapper p {
-  border-bottom: 2px dotted #D1F0FF;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  font-size: 18px;
+.list-wrapper p, .list-wrapper td {
+  border-bottom: 2px dotted #d1f0ff;
+  padding: 20px 0px 5px 0px;    
   text-transform: capitalize;
-  color: #D1F0FF;
+  color: #d1f0ff;
   font-weight: bold;
 }
 
 .list-wrapper li {
   list-style: none;
-  color: #D1F0FF;
+  color: #d1f0ff;
   font-size: 18px;
-}
-
-.list-wrapper td {
-  border-bottom: 2px dotted #D1F0FF;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  text-transform: capitalize;
-  color: #D1F0FF;
-  font-weight: bold;
 }
 
 .list-wrapper a {
@@ -145,14 +121,14 @@ header ul {
 }
 
 .top p, .top h2 {
-  color: #D1F0FF;
+  color: #d1f0ff;
   font-weight: bold;
 }
 
-.top p {  
+.top p, .list-wrapper p {  
   font-size: 18px;
 }
 
 .selected {
-  color: #D1F0FF;
+  color: #d1f0ff;
 }
