@@ -1,0 +1,34 @@
+nav {
+  z-index: 1;
+  background-color: #001f33;
+  color: #338195;
+  padding: 20px 20% 75px 20%;  
+
+  h1 a {
+  text-decoration: none;
+  color: #338195;
+  float: left;
+  }
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    float: right;
+
+    li {
+      display: inline-block;
+      margin: 0px 20px 0px 1px;
+      padding: 5px;  
+    }
+
+    a {
+      text-decoration: none;
+      color: #338195;
+    }
+  }
+}
+
+.selected {
+  color: #d1f0ff;
+}
