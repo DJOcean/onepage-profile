@@ -29,15 +29,15 @@
   margin-top: 40px;
   width: 50%;
     p, td {
-      border-bottom: 2px dotted $whitetext-color;
+      border-bottom: 2px dotted $white;
       padding: 20px 0px 5px 0px;    
       text-transform: capitalize;
-      color: $whitetext-color;
+      color: $white;
       font-weight: bold;
     }
     li {
       list-style: none;
-      color: $whitetext-color;
+      color: $white;
       font-size: 18px;
     }
     a {
@@ -51,7 +51,7 @@
 
 .summary {
     p, h2 {
-      color: $whitetext-color;
+      color: $white;
       font-weight: bold;
     }
     p {
