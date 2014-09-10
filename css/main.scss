@@ -1,6 +1,7 @@
 @import 'navigation/_nav.scss';
 @import 'default/_default.scss';
 @import 'pages/_shared.scss';
+@import 'footer/_footer.scss';
 
 /* colors 
 #004C4C = accent
@@ -9,9 +10,5 @@
 
 
 
-footer {
-  background-color: #666;
-  height: 100px;
-  clear: both;
-}
+
 
