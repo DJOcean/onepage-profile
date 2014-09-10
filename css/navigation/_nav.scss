@@ -1,12 +1,13 @@
+
 nav {
   z-index: 1;
-  background-color: #001f33;
-  color: #338195;
+  background-color: $secondary-color;
+  color: $primary-color;
   padding: 20px 20% 75px 20%;  
 
   h1 a {
   text-decoration: none;
-  color: #338195;
+  color: $primary-color;
   float: left;
   }
 
@@ -24,11 +25,11 @@ nav {
 
     a {
       text-decoration: none;
-      color: #338195;
+      color: $primary-color;
     }
   }
 }
 
 .selected {
-  color: #d1f0ff;
+  color: $whitetext-color;
 }

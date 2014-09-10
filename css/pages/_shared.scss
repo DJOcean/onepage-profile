@@ -10,7 +10,7 @@
 .pic-wrapper {
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: #338195;
+  background-color: $primary-color;
   color: #004c4c;
   float:left;
     img {
@@ -29,15 +29,15 @@
   margin-top: 40px;
   width: 50%;
     p, td {
-      border-bottom: 2px dotted #d1f0ff;
+      border-bottom: 2px dotted $whitetext-color;
       padding: 20px 0px 5px 0px;    
       text-transform: capitalize;
-      color: #d1f0ff;
+      color: $whitetext-color;
       font-weight: bold;
     }
     li {
       list-style: none;
-      color: #d1f0ff;
+      color: $whitetext-color;
       font-size: 18px;
     }
     a {
@@ -51,7 +51,7 @@
 
 .summary {
     p, h2 {
-      color: #d1f0ff;
+      color: $whitetext-color;
       font-weight: bold;
     }
     p {
