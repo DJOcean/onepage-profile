@@ -1,13 +1,19 @@
 nav {
   background-color: $secondary-color;
+  box-shadow: 0 0 30px #111;
   color: $primary-color;
-  padding: 20px 20% 75px;
+  padding: 10px 20% 60px;
   z-index: 1;
 
   h1 a {
     color: $primary-color;
     float: left;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: $white;
+    font-style: italic;    
   }
 
   ul {
@@ -22,7 +28,13 @@ nav {
       padding: 5px;  
     }
 
-    a {      
+    a:hover {
+      color: $white;
+      font-style: italic;      
+    }
+
+    a { 
+
       color: $primary-color;
       text-decoration: none;
     }
