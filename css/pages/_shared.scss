@@ -13,8 +13,8 @@
   padding: 1% 0;  
 
   img {
-    background: #a4a4a4;
-    border: 10px double #0b173b;    
+    background: $white;
+    border: 10px double $secondary-color;    
     border-radius: 100%;
     display: inline-block;
     height: 350px;
@@ -54,6 +54,8 @@
 }
 
 .summary {
+  margin: 50px 0 0;
+  
   p, 
   h2 {
     color: $white;

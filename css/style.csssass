@@ -1,16 +1,15 @@
 nav {
   background-color: #001f33;
-  box-shadow: 0px 0 30px #111;
+  border: 2px dotted #d1f0ff;
+  box-shadow: 10px 10px 5px #888;
   color: #338195;
-  padding: 10px 20% 60px;
+  padding: 20px 20% 75px;
+  margin: 0 50px;
   z-index: 1; }
   nav h1 a {
     color: #338195;
     float: left;
     text-decoration: none; }
-  nav a:hover {
-    font-style: italic;
-    color: #d1f0ff; }
   nav ul {
     display: inline-block;
     float: right;
@@ -20,9 +19,6 @@ nav {
       display: inline-block;
       margin: 0 20px 0 1px;
       padding: 5px; }
-    nav ul a:hover {
-      font-style: italic;
-      color: #d1f0ff; }
     nav ul a {
       color: #338195;
       text-decoration: none; }
@@ -71,8 +67,8 @@ div {
   float: left;
   padding: 1% 0; }
   .pic-wrapper img {
-    background: #d1f0ff;
-    border: 10px double #001f33;
+    background: #a4a4a4;
+    border: 10px double #0b173b;
     border-radius: 100%;
     display: inline-block;
     height: 350px;
@@ -99,18 +95,16 @@ div {
   .list-wrapper table {
     width: 100%; }
 
-.summary {
-  margin: 50px 0 0; }
-  .summary p,
-  .summary h2 {
-    color: #d1f0ff;
-    font-weight: bold; }
-  .summary p {
-    font-size: 18px; }
+.summary p,
+.summary h2 {
+  color: #d1f0ff;
+  font-weight: bold; }
+.summary p {
+  font-size: 18px; }
 
 footer {
   background-color: #666;
   clear: both;
   height: 100px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csssass.map */
