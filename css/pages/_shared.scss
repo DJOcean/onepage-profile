@@ -1,26 +1,25 @@
 
-.main-content {
-  padding-left: 20%;
-  padding-right: 20%;
-  width: 100%;
-  min-height: 100%;
-  margin: 0 auto -100px;
+.main-content { 
+  margin: 0 auto -100px; 
+  min-height: 100%;  
+  padding: 0 20%;  
+  width: 100%; 
 }
 
 .pic-wrapper {
-  padding-top: 1%;
-  padding-bottom: 1%;
   background-color: $primary-color;
   color: #004c4c;
-  float:left;
-    img {
-      width: 350px;
-      height: 350px;
-      border: 10px double #0b173b;
-      background: #a4a4a4;
-      border-radius: 100%;
-      display: inline-block;
-      margin-bottom: 20px;
+  float: left;
+  padding: 1% 0;  
+
+  img {
+    background: #a4a4a4;
+    border: 10px double #0b173b;    
+    border-radius: 100%;
+    display: inline-block;
+    height: 350px;
+    margin-bottom: 20px;
+    width: 350px;   
     }
 }
 
@@ -28,33 +27,40 @@
   float: right;
   margin-top: 40px;
   width: 50%;
-    p, td {
-      border-bottom: 2px dotted $white;
-      padding: 20px 0px 5px 0px;    
-      text-transform: capitalize;
-      color: $white;
-      font-weight: bold;
-    }
-    li {
-      list-style: none;
-      color: $white;
-      font-size: 18px;
-    }
-    a {
-      text-transform: none;
-    }
-    table {
-      width: 100%;
-    }
+
+  p, 
+  td {
+    border-bottom: 2px dotted $white;
+    color: $white;
+    font-weight: bold;
+    padding: 20px 0 5px;            
+    text-transform: capitalize;    
+  }
+
+  li {
+    color: $white;
+    font-size: 18px;
+    list-style: none;
+  }
+
+  a {
+    text-transform: none;
+  }
+
+  table {
+    width: 100%;
+  }
 
 }
 
 .summary {
-    p, h2 {
-      color: $white;
-      font-weight: bold;
-    }
-    p {
-      font-size: 18px;
-    }
+  p, 
+  h2 {
+    color: $white;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+  }
 }
