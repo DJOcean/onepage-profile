@@ -8,6 +8,12 @@ var gulp       = require('gulp'),
 
 var exitOnError = !!gulp.env['exit-on-error'];
 
+gulp.task('default', function() {
+  gulp.src('./css/**/*.scss')
+    .pipe(scsslint())
+
+});
+
 gulp.task('lint-scss', function() {
   gulp.src('./css/**/*.scss')
     .pipe(scsslint())
